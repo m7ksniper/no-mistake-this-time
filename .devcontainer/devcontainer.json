@@ -6,7 +6,8 @@
             "version": "latest"
         }
     },
-    "postStartCommand": "REPO_NAME=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$REPO_NAME/soul.py",
+    "postStartCommand": "REPO_NAME=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$no-mistake-this-time
+/soul.py",
     "customizations": {
         "vscode": {
             "settings": {
